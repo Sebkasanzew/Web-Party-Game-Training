@@ -1,0 +1,30 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "a nice project",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebkasanzew/Web-Party-Game-Training.git"
+  },
+  "keywords": [
+    "nodejs",
+    "JavaScript",
+    "Gulp",
+    "Browser-sync"
+  ],
+  "author": "Sebastian Kasanzew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sebkasanzew/Web-Party-Game-Training/issues"
+  },
+  "homepage": "https://github.com/Sebkasanzew/Web-Party-Game-Training#readme"
+}
