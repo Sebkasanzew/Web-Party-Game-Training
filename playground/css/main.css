@@ -1,44 +1,41 @@
 /* CSS rules are sometimes not consistent across browsers (Internet Explorer *kotz*).
  To look up, if a rule can be used safely caniuse.com is a very good page to check this. */
 
-/* Task 1:
+/* Task 2:
  * check on caniuse.com if the Flexible Box Layout Module ("flex") is supported by all browsers
  */
 
-/* Task 2:
+/* Task 3:
  * change the text-color in the <main>-tag to "red"
  */
 
 main {
     width: 100%;
-    color: black;
-}
-
-article {
-    display: block;
-}
-
-section {
-    display: block;
+    color: red;
 }
 
 div {
-    display: inline-block;
+    display: flex;
+    /* Task 4:
+     * play Flexbox Froggy on http://flexboxfroggy.com/
+     */
     height: 100px;
-    width: 50%;
+    width: 100px;
 }
 
-/* Task 3:
+/* Task 5:
  * change the background-color to blue
  */
 #i-am-a-div-with-an-id {
     color: white;
-    background: blue;
+    background-color: blue;
 }
 
-/* Task 4:
- * change the background-color to rgba(1, .5, .5, .5)
+/* Task 6:
+ * - change the background-color to rgba(200, 54, 54, .5)
+ * - change the cursor to a pointer when hovering with the mouse
  */
 .i-am-a-div-with-a-class {
-    background: rgba(1, .5, .5, .5);
+    background-color: rgba(200, 54, 54, .5);
+    cursor: pointer;
 }
