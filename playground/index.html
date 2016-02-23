@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- every HTML5 file needs to begin with this -->
+<html lang="en"> <!-- defines the language of the page for search engines, screen readers and so on... -->
+
+<!-- every HTML file consist of a <head> and a <body> -->
+<head>
+    <!-- The head contains meta information like titles, meta-data for search-engines, stylesheet-references and so on... -->
+    <meta charset="UTF-8"> <!-- information for the browser, how to encode the text -->
+    <title>Playground</title> <!-- the page title... will be displayed in the browser-tab -->
+
+    <!-- this is our stylesheet... here we define all stylings for our page -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- some HTML tags should not be closed with </xxx>... <link> and <meta> are some of them -->
+
+    <!-- Task 0: uncomment this, after you downloaded jQuery -->
+    <!--<script src="js/jquery-2.2.1.min.js"></script>-->
+
+    <!-- Our main JavaScript file. This is enough for now. -->
+    <script type="application/javascript" src="js/main.js"></script>
+    <!-- the "type"-attribute is not needed for JavaScript-Scripts... but it does not hurt -->
+</head>
+<body>
+<!-- the body contains the actual Document Object Model (DOM), which you can see in the browser -->
+
+<header>
+    <!-- Don't mix this up with the <head>-tag. This is a new HTML5-tag to define the header of a page. It's just better for screen-readers and search engines. -->
+    <!-- here is makes sense to add a navigation, if you have multiple pages... you can do this with the <nav>-tag -->
+</header>
+
+<main>
+    <!-- the <a>-tag represents a link.... with the attribute "target" you can specify how the link should be opened.
+    With target="_blank" the link opens in a new tab -->
+    The &lt;main&gt; tag is new in HTML5... read more about HTML5 tags
+    <a target="_blank" href="https://developer.mozilla.org/de/docs/Web/HTML/HTML5/HTML5_element_list">here</a>.
+
+    <article>
+        <section>
+            <div id="i-am-a-div-with-an-id">I am a div.</div>
+            <!-- Task 1:
+                 assign to the next element an ID of your choice
+            -->
+            <div class="i-am-a-div-with-a-class">I am a div.</div>
+        </section>
+    </article>
+</main>
+
+<footer> <!-- guess what this stands for... It's also just an improvement from HTML5 for search engines -->
+    In the next lesson we will see how to implement a Framework to make our page look better ;)
+</footer>
+
+</body>
+
+</html>
